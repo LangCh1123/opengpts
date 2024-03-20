@@ -49,7 +49,7 @@ poetry install
 **Set up persistence layer**
 
 The backend by default uses Redis for saving agent configurations and chat message history.
-In order to you use this, you need to a `REDIS_URL` variable.
+In order to use this, you need to add a `REDIS_URL` variable to your shell.
 
 ```shell
 export REDIS_URL=...
